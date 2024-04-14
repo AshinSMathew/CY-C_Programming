@@ -15,7 +15,7 @@ void main()
 		b=temp%10;
 		x=x+(b*b*b);
 		temp=temp/10;
-		continue;
+		
 	}
 	if(x==a)
 	{	printf("%d is an armstrong number\n",a);
