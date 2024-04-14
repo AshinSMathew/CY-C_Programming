@@ -21,7 +21,7 @@ void main()
 				break;
 		
 			}
-			else if(a%j==1)
+			else if(a%j!=0)
 			{
 				j=j+1;
 				continue;

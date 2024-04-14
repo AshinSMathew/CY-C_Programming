@@ -2,16 +2,16 @@
 #include<stdio.h>
 void main()
 {
-	int a,j=0,b=0,x,y,sum;
+	int a,j,b=0,x,y,sum;
 	float avg;
 	printf("Enter the number of elements to find sum and average:");
 	scanf("%d",&a);
 	
 	int num[a];
 	printf("Enter %d integers:\n",a);
-	for(x=0;x<a;x++){
+	for(j=0;j<a;j++){
 		scanf("%d",&num[j]);
-		continue;
+		
 		}
 	for(x=0;x<a;x++)
 	{
