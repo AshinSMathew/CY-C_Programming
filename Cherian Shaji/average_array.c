@@ -11,7 +11,7 @@ void main()
 	printf("Enter %d integers:\n",a);
 	for(x=0;x<a;x++){
 		scanf("%d",&num[j]);
-		continue;
+		
 		}
 	for(x=0;x<a;x++)
 	{
